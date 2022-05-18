@@ -1,0 +1,11 @@
+dependencies {
+	compile project(":modules:todo:todo-api")
+
+	compileOnly group: "com.liferay.portal", name: "release.dxp.api"
+}
+
+buildService {
+	apiDir = "../todo-api/src/main/java"
+}
+
+group = "com.liferay.trainning.todo"

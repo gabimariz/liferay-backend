@@ -1,0 +1,10 @@
+Bundle-Name: todo-api
+Bundle-SymbolicName: com.liferay.trainning.todo.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.liferay.trainning.todo.exception,\
+	com.liferay.trainning.todo.model,\
+	com.liferay.trainning.todo.service,\
+	com.liferay.trainning.todo.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../todo-service/service.xml
